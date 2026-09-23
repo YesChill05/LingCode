@@ -1,0 +1,32 @@
+# 构建产物
+build/
+.gradle/
+bin/
+out/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# LingCode 运行时数据（会话 / 记忆 / 本地配置不入库，示例配置与技能保留）
+.lingcode/*
+!.lingcode/config.yaml.example
+!.lingcode/skills/
+
+# AI 工具上下文文件
+CLAUDE.md
+
+# 个人文档，不随仓库公开
+docs/面试问答文档.md
+
+# Playwright MCP 运行日志
+.playwright-mcp/
+
+# 依赖元数据，不该出现在顶层
+META-INF/
